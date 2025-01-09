@@ -7,4 +7,4 @@ Este proyecto es una simulación interactiva de una neurona con entradas, pesos 
 3. **Tres entradas, tres pesos y un sesgo**
 
 ## Enlace a Streamlit
-
+https://holaneurona-jairo.streamlit.app/
