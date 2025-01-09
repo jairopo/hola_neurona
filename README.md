@@ -1,5 +1,10 @@
-# CLASIFICADOR DE PRENDAS DE ROPA Y ACCESORIOS
+# Simulación de una neurona en Streamlit
 
-Aplicación web realizada con Streamlit para clasificar prendas de ropa y accesorios.
+Este proyecto es una simulación interactiva de una neurona con entradas, pesos y un sesgo, creada con **Streamlit**. A través de una interfaz gráfica, el usuario puede modificar el peso, las entradas y calcular la salida de la neurona. Se proporcionan tres configuraciones para la neurona:
 
-El dataset con el que se ha entrenado el modelo es el Fashion MNIST de Zalando.
+1. **Una entrada y un peso**
+2. **Dos entradas y dos pesos**
+3. **Tres entradas, tres pesos y un sesgo**
+
+## Enlace a Streamlit
+
