@@ -46,14 +46,14 @@ tab3.markdown('<h1 style="font-size:25px;">Una neurona con tres entradas, tres p
 # Recogida de datos de la tercera ventana
 col1, col2, col3 = tab3.columns(3)
 with col1:
-    tab3_x0 = st.number_input("Entrada x₀", key="tab3 x0")
     tab3_w0 = st.slider("Peso w₀", 0.0, 5.0, key="tab3 w0")
+    tab3_x0 = st.number_input("Entrada x₀", key="tab3 x0")
 with col2:
-    tab3_x1 = st.number_input("Entrada x₁", key="tab3 x1")
     tab3_w1 = st.slider("Peso w₁", 0.0, 5.0, key="tab3 w1")
+    tab3_x1 = st.number_input("Entrada x₁", key="tab3 x1")
 with col3:
-    tab3_x2 = st.number_input("Entrada x₂", key="tab3 x2")
     tab3_w2 = st.slider("Peso w₂", 0.0, 5.0, key="tab3 w2")
+    tab3_x2 = st.number_input("Entrada x₂", key="tab3 x2")
 
 tab3_b = tab3.number_input("Introduzca el valor del sesgo")
 
