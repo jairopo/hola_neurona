@@ -52,9 +52,9 @@ with col2:
     tab3_x1 = st.number_input("Entrada x₁", key="tab3 x1")
     tab3_w1 = st.slider("Peso w₁", 0.0, 5.0, key="tab3 w1")
 with col3:
-    tab3_w2 = st.slider("Peso w₂", 0.0, 5.0, key="tab3 w2")
     tab3_x2 = st.number_input("Entrada x₂", key="tab3 x2")
-    
+    tab3_w2 = st.slider("Peso w₂", 0.0, 5.0, key="tab3 w2")
+
 tab3_b = tab3.number_input("Introduzca el valor del sesgo")
 
 # Cálculo de la salida y presentación de resultados
